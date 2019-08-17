@@ -1,0 +1,17 @@
+backend:
+  name: github
+  repo: lucashuguet/Netlify-gatsby-cms
+
+media_folder: static/assets
+public_folder: assets
+
+collections:
+  - name: blog
+    label: Article
+    folder: blog
+    create: true
+    fields:
+      - { name: slug, label: Slug }
+      - { name: date, label: Date, widget: date }
+      - { name: title, label: Title }
+      - { name: body, label: Body, widget: markdown }
