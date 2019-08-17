@@ -1,6 +1,5 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
-import Helmet from "react-helmet"
 import Layout from "../components/layout"
 // import Image from "../components/image"
 import SEO from "../components/seo"
@@ -17,9 +16,6 @@ const IndexPage = ({ data }) => (
         <p>{node.excerpt}</p>
       </div>
     ))} */}
-    <Helmet>
-      <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-    </Helmet>
     <List
       itemLayout="horizontal"
       dataSource={data.allMarkdownRemark.edges}
