@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: lucashuguet/Netlify-gatsby-cms
+  repo: lucashuguet/react-dev-gatsby
 
 media_folder: static/assets
 public_folder: assets
