@@ -1,5 +1,6 @@
 import PropTypes from "prop-types"
 import React from "react"
+import { Link } from "gatsby"
 
 const Header = ({ siteTitle }) => (
   <header
@@ -16,15 +17,15 @@ const Header = ({ siteTitle }) => (
       }}
     >
       <h1 style={{ margin: 0 }}>
-        <a
-          href="/"
+        <Link
+          to="/"
           style={{
             color: `white`,
             textDecoration: `none`,
           }}
         >
           {siteTitle}
-        </a>
+        </Link>
       </h1>
     </div>
   </header>

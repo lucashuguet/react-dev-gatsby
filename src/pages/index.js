@@ -1,5 +1,5 @@
 import React from "react"
-import { graphql } from "gatsby"
+import { graphql, Link } from "gatsby"
 import Layout from "../components/layout"
 import Helmet from "react-helmet"
 // import Image from "../components/image"
@@ -10,7 +10,7 @@ import { List } from "antd"
 
 const IndexPage = ({ data }) => (
   <Layout page="1">
-    <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
+    <SEO title="Home" keywords={[`gatsby`, `application`, `react`, `Game`, `Jeux`]} />
     {/* {data.allMarkdownRemark.edges.map(({ node }) => (
       <div key={node.id}>
         <h2>{node.frontmatter.title}</h2>
@@ -24,11 +24,11 @@ const IndexPage = ({ data }) => (
       itemLayout="horizontal"
       dataSource={data.allMarkdownRemark.edges}
       renderItem={({ node }) => (
-      <List.Item extra={<a href={node.frontmatter.slug}>Read more</a>}>
+      <List.Item extra={<Link to={node.frontmatter.slug}>Read more</Link>}>
           <List.Item.Meta
             title={
               <span style={{ fontSize: "2rem" }}>
-                <a href={node.frontmatter.slug}>{node.frontmatter.title}</a>
+                <Link to={node.frontmatter.slug}>{node.frontmatter.title}</Link>
               </span>
             }
             description={
