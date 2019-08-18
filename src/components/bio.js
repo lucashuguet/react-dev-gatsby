@@ -1,5 +1,5 @@
 import React from "react"
-import { StaticQuery, Link, graphql } from "gatsby"
+import { StaticQuery, graphql } from "gatsby"
 
 import { List, Avatar, Divider } from "antd"
 
@@ -39,7 +39,7 @@ const Bio = () => (
             avatar={
               <Avatar size={64} src={data.site.siteMetadata.authorImage} />
             }
-            title={<Link to="/about">{data.site.siteMetadata.author}</Link>}
+            title={<a href="/about">{data.site.siteMetadata.author}</a>}
             description={data.site.siteMetadata.bio}
           />
         </List.Item>

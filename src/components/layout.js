@@ -1,6 +1,6 @@
 import React from "react"
 import PropTypes from "prop-types"
-import { StaticQuery, graphql, Link } from "gatsby"
+import { StaticQuery, graphql, } from "gatsby"
 
 // import Header from "./header"
 // import "../theme/global.css"
@@ -35,10 +35,10 @@ const GLayout = ({ children, page }) => (
           <div className="logo" />
           <Menu theme="dark" mode="inline" defaultSelectedKeys={[page]}>
             <Menu.Item key="1">
-              <Link to="/">
+              <a href="/">
                 <Icon type="home" />
                 <span className="nav-text">Home</span>
-              </Link>
+              </a>
             </Menu.Item>
             <Menu.Item key="2">
               <a href="/pnjfire">
@@ -47,16 +47,16 @@ const GLayout = ({ children, page }) => (
               </a>
             </Menu.Item>
             <Menu.Item key="3">
-              <Link to="/page-2">
+              <a href="/page-2">
                 <Icon type="upload" />
                 <span className="nav-text">Page 2</span>
-              </Link>
+              </a>
             </Menu.Item>
             <Menu.Item key="4">
-              <Link to="/about">
+              <a href="/about">
                 <Icon type="user" />
                 <span className="nav-text">About</span>
-              </Link>
+              </a>
             </Menu.Item>
           </Menu>
         </Sider>
