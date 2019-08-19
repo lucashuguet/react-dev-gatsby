@@ -42,7 +42,7 @@ const GLayout = ({ children, page }) => (
             </Menu.Item>
             <Menu.Item key="2">
               <Link to="/pnjfire">
-                <Icon type="video-camera" />
+              <Icon type="youtube" />
                 <span className="nav-text">PnjFire</span>
               </Link>
             </Menu.Item>
@@ -57,6 +57,12 @@ const GLayout = ({ children, page }) => (
                 <Icon type="user" />
                 <span className="nav-text">About</span>
               </Link>
+            </Menu.Item>
+            <Menu.Item key="5">
+              <a href="https://github.com/lucashuguet/react-dev-gatsby" target="_blank" rel="noopener noreferrer">
+                <Icon type="github" />
+                <span className="nav-text">Code</span>
+              </a>
             </Menu.Item>
           </Menu>
         </Sider>
