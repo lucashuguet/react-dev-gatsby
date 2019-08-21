@@ -3,15 +3,13 @@ import { graphql } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import Header from "../components/header"
 
-const SecondPage = ({ data }) => (
+const About = ({ data }) => (
   <Layout page="4">
     <SEO title="About" />
     <h1>About page</h1>
     <p>Bla bla.</p>
     <p>{data.site.siteMetadata.title}</p>
-    <Header siteTitle="About" />
     <a href="/">Go back to the homepage</a>
   </Layout>
 )
@@ -26,4 +24,4 @@ export const query = graphql`
   }
 `
 
-export default SecondPage
+export default About

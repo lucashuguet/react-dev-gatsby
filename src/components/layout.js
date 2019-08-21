@@ -59,10 +59,10 @@ const GLayout = ({ children, page }) => (
               </Link>
             </Menu.Item>
             <Menu.Item key="5">
-              <a href="https://github.com/lucashuguet/react-dev-gatsby" target="_blank" rel="noopener noreferrer">
+              <Link to="/code">
                 <Icon type="github" />
                 <span className="nav-text">Code</span>
-              </a>
+              </Link>
             </Menu.Item>
           </Menu>
         </Sider>
