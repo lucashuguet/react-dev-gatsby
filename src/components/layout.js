@@ -64,6 +64,12 @@ const GLayout = ({ children, page }) => (
                 <span className="nav-text">Code</span>
               </Link>
             </Menu.Item>
+            <Menu.Item key="6">
+              <Link to="/lien">
+                <Icon type="link" />
+                <span className="nav-text">Lien</span>
+              </Link>
+            </Menu.Item>
           </Menu>
         </Sider>
         <Layout>

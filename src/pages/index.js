@@ -1,7 +1,7 @@
 import React from "react"
 import { graphql, Link } from "gatsby"
 import Layout from "../components/layout"
-import Helmet from "react-helmet"
+// import Helmet from "react-helmet"
 // import Image from "../components/image"
 import SEO from "../components/seo"
 import Bio from "../components/bio"
@@ -11,15 +11,15 @@ import { List } from "antd"
 const IndexPage = ({ data }) => (
   <Layout page="1">
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`, `Game`, `Jeux`]} />
-    {/* {data.allMarkdownRemark.edges.map(({ node }) => (
+    {/*<Helmet>
+      <script src="https://apis.google.com/js/platform.js" async defer></script>
+    </Helmet>
+     {data.allMarkdownRemark.edges.map(({ node }) => (
       <div key={node.id}>
         <h2>{node.frontmatter.title}</h2>
         <p>{node.excerpt}</p>
       </div>
     ))} */}
-    <Helmet>
-      <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-    </Helmet>
     <List
       itemLayout="horizontal"
       dataSource={data.allMarkdownRemark.edges}
