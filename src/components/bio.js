@@ -34,15 +34,17 @@ const Bio = () => (
     render={data => (
       <>
         <Divider orientation="left">Author</Divider>
-        <List.Item>
-          <List.Item.Meta
-            avatar={
-              <Avatar size={64} src={data.site.siteMetadata.authorImage} alt="avatar" />
-            }
-            title={<Link to="/about">{data.site.siteMetadata.author}</Link>}
-            description={data.site.siteMetadata.bio}
-          />
-        </List.Item>
+        <List>
+          <List.Item>
+            <List.Item.Meta
+              avatar={
+                <Avatar size={64} src={data.site.siteMetadata.authorImage} alt="avatar" />
+              }
+              title={<Link to="/about">{data.site.siteMetadata.author}</Link>}
+              description={data.site.siteMetadata.bio}
+            />
+          </List.Item>
+        </List>
       </>
     )}
   />
