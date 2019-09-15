@@ -70,9 +70,9 @@ const GLayout = ({ children, page }) => (
                 <span className="nav-text">Lien</span>
               </Link>
             </Menu.Item>
-            <Menu.Item key="6">
+            <Menu.Item key="7">
               <Link to="/projects">
-                <Icon type="link" />
+                <Icon type="appstore" />
                 <span className="nav-text">Projects</span>
               </Link>
             </Menu.Item>
@@ -83,7 +83,7 @@ const GLayout = ({ children, page }) => (
             <h1 style={{ color: "white" }}>{data.site.siteMetadata.title}</h1>
           </Header>
           <Content style={{ margin: "24px 16px 0" }} >
-            <div style={{ padding: 24, background: "#fff", minHeight: 360 }}>
+            <div style={{ padding: 24, minHeight: 360 }}>
               <div style={{ maxWidth: 960 }}>{children}</div>
             </div>
           </Content>

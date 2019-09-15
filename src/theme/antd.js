@@ -8,9 +8,9 @@
 
 module.exports = {
   // primary color for all components
-  "@primary-color": "#003569",
+  "@primary-color": "#001529",
   // link color
-  "@link-color": "#003569",
+  "@link-color": "#001529",
   // success state color
   "@success-color": "#52c41a",
   // warning state color
