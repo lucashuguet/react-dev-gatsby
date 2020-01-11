@@ -1,8 +1,9 @@
 import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+//import axios from "axios"
 
-const PnjFire = () => (
+const Pnjfire = () => (
   <Layout page="2">
     <SEO title="PnjFire" />
     <h1><a href="https://www.youtube.com/channel/UCl4h9XbHQ-kQewcPodiUWVg/?sub_confirmation=1" >PnjFire</a></h1>
@@ -11,4 +12,4 @@ const PnjFire = () => (
   </Layout>
 )
 
-export default PnjFire
+export default Pnjfire
