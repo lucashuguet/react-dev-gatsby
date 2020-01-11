@@ -1,4 +1,4 @@
-import { resolve } from `path`
+const path = require(`path`)
 
 export function createPages({ graphql, actions }) {
   const { createPage } = actions
