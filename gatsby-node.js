@@ -1,6 +1,6 @@
-const path = require(`path`)
+import { resolve } from `path`
 
-exports.createPages = ({ graphql, actions }) => {
+export function createPages({ graphql, actions }) {
   const { createPage } = actions
   return graphql(
     `
@@ -22,7 +22,7 @@ exports.createPages = ({ graphql, actions }) => {
     result.data.allMarkdownRemark.edges.forEach(({ node }) => {
       createPage({
         path: node.frontmatter.slug,
-        component: path.resolve(`./src/templates/post.js`),
+        component: resolve(`./src/templates/post.js`),
         context: { slug: node.frontmatter.slug },
       })
     })

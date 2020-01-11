@@ -32,20 +32,20 @@ const Bio = () => (
       }
     `}
     render={data => (
-      <>
+      <div>
         <Divider orientation="left">Author</Divider>
         <List>
           <List.Item>
             <List.Item.Meta
               avatar={
-                <Avatar size={64} src={data.site.siteMetadata.authorImage} alt="avatar" />
+                <Avatar size={64} src="https://res.cloudinary.com/astrolht31/image/upload/c_scale,q_100,w_64/v1548264480/img/IMG_1162.png" alt="avatar" />
               }
               title={<Link to="/about">{data.site.siteMetadata.author}</Link>}
               description={data.site.siteMetadata.bio}
             />
           </List.Item>
         </List>
-      </>
+      </div>
     )}
   />
 )

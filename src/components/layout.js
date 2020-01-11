@@ -88,7 +88,7 @@ const GLayout = ({ children, page }) => (
             </div>
           </Content>
           <Footer style={{ textAlign: "center" }}>
-            React-dev ©2019 Created by Astro
+            React-dev ©2020 Created by Astro
           </Footer>
         </Layout>
       </Layout>
