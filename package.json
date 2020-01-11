@@ -13,31 +13,31 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
   },
   "dependencies": {
-    "gatsby": "^2.1.18",
-    "gatsby-image": "^2.0.30",
-    "gatsby-plugin-antd": "^2.0.2",
+    "gatsby": "^2.18.21",
+    "gatsby-image": "^2.2.38",
+    "gatsby-plugin-antd": "^2.1.0",
     "gatsby-plugin-less": "^2.0.11",
     "gatsby-plugin-manifest": "^2.0.19",
     "gatsby-plugin-netlify-cms": "^3.0.12",
     "gatsby-plugin-offline": "^2.0.24",
-    "gatsby-plugin-react-helmet": "^3.0.7",
+    "gatsby-plugin-react-helmet": "^3.1.21",
     "gatsby-plugin-sharp": "^2.2.12",
-    "gatsby-source-filesystem": "^2.0.23",
-    "gatsby-transformer-remark": "^2.3.0",
+    "gatsby-source-filesystem": "^2.1.46",
+    "gatsby-transformer-remark": "^2.6.48",
     "gatsby-transformer-sharp": "^2.2.6",
-    "less": "^3.9.0",
-    "netlify-cms": "^2.5.0",
+    "less": "^3.10.3",
+    "netlify-cms": "^2.10.4",
     "prop-types": "^15.7.2",
-    "react": "^16.8.3",
-    "react-dom": "^16.8.3",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
     "react-helmet": "^5.2.0",
-    "swup": "^2.0.5",
+    "swup": "^2.0.8",
     "typeface-fira-sans": "0.0.54",
     "typography": "^0.16.19",
     "typography-theme-fairy-gates": "^0.16.19"
   },
   "devDependencies": {
-    "prettier": "^1.18.2"
+    "prettier": "^1.19.1"
   },
   "repository": {
     "type": "git",
